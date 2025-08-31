@@ -1,0 +1,18 @@
+{
+  "trading": {
+    "initial_balance": 10000,
+    "symbol": "BTCUSDT",
+    "strategy": "moving_average_crossover",
+    "short_window": 10,
+    "long_window": 30,
+    "trade_amount_percent": 0.1
+  },
+  "data": {
+    "source": "mock",
+    "interval": "1h"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "trading_bot.log"
+  }
+}
